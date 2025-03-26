@@ -2,31 +2,30 @@
 
 ## **Table of Contents**
 1. **Introduction**
-   1.1. What is a Python Library?
-   1.2. Why Create Your Own Library?
+   - 1.1. What is a Python Library?
+   - 1.2. Why Create Your Own Library?
 2. **Setting Up the Development Environment**
-   2.1. Virtual Environment Setup
-   2.2. Common Errors and Fixes
+   - 2.1. Virtual Environment Setup
+   - 2.2. Common Errors and Fixes
 3. **Creating Your Library**
-   3.1. Structure of a Python Library
-   3.2. Writing the Code (e.g., Calculator Library)
-   3.3. Writing Tests for Your Library
+   - 3.1. Structure of a Python Library
+   - 3.2. Writing the Code (e.g., Calculator Library)
+   - 3.3. Writing Tests for Your Library
 4. **Packaging Your Library**
-   4.1. The `setup.py` File
-   4.2. Handling `setup.py` Errors
+   - 4.1. The `setup.py` File
+   - 4.2. Handling `setup.py` Errors
 5. **Deploying the Library to PyPI**
-   5.1. Installing Twine
-   5.2. Preparing for Deployment
-   5.3. Uploading to PyPI
-   5.4. Troubleshooting Deployment Errors
+   - 5.1. Installing Twine
+   - 5.2. Preparing for Deployment
+   - 5.3. Uploading to PyPI
+   - 5.4. Troubleshooting Deployment Errors
 6. **Installing Your Library**
-   6.1. How to Install the Library
-   6.2. Verifying Installation
+   - 6.1. How to Install the Library
+   - 6.2. Verifying Installation
 7. **Maintaining Your Library**
-   7.1. Updating Your Library Version
-   7.2. Adding New Features
-   7.3. Fixing Bugs and Releasing Updates
-
+   - 7.1. Updating Your Library Version
+   - 7.2. Adding New Features
+   - 7.3. Fixing Bugs and Releasing Updates
 ---
 
 ## **1. Introduction**
