@@ -237,6 +237,34 @@ twine upload dist/*
 - **Error:** `invalid command 'bdist_wheel'`
   - **Fix:** Install `wheel` by running `pip install wheel`.
 
+
+### **5.5 Set Up Your `.pypirc` File Correctly**
+From the message you received, it looks like you're using a token to authenticate, but the setup might need some adjustments.
+
+1. **Create or Update Your `.pypirc` File**
+
+   If you're using an API token, you need to configure the `.pypirc` file to authenticate with PyPI properly.
+
+   - On your machine, locate (or create) the `.pypirc` file in your home directory (`~/.pypirc` on Linux/macOS or `%USERPROFILE%\.pypirc` on Windows).
+
+   Add the following content:
+
+   ```plaintext
+   [pypi]
+   username = __token__
+   password = pypi-<your-token-here>
+   ```
+
+   Make sure to replace `<your-token-here>` with your actual PyPI API token.
+
+2. **Upload Using Twine Again**
+   With this configuration in place, try running the upload command again:
+   ```bash
+   twine upload dist/*
+   ```
+**Check for Case Sensitivity in Project Name**
+Remember that PyPI is case-sensitive. If your project name includes upper-case letters (like `my_calculator_library`), it could conflict with an already existing project name. It’s a good practice to use lowercase letters and avoid special characters like spaces in the project name.
+
 ---
 
 ## **6. Installing Your Library**
