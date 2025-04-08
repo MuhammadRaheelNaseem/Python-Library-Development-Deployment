@@ -262,6 +262,11 @@ From the message you received, it looks like you're using a token to authenticat
    ```bash
    twine upload dist/*
    ```
+
+3. ** if Not work than use this command**
+   ```bash
+    python -m twine upload dist/* -u __token__ -p pypi-AgEIcHlwaS5vcmcCJDI0MmMxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   ```
 **Check for Case Sensitivity in Project Name**
 Remember that PyPI is case-sensitive. If your project name includes upper-case letters (like `my_calculator_library`), it could conflict with an already existing project name. It’s a good practice to use lowercase letters and avoid special characters like spaces in the project name.
 
